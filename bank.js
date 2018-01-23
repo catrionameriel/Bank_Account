@@ -21,7 +21,7 @@ Bank.prototype.findAccountByName = function (name) {
 
 Bank.prototype.findAccountByHighValue = function () {
    Math.max.apply({}, this.accounts);
-  return this.accounts[this.accounts.length - 1];
+   return this.accounts[this.accounts.length - 1];
 }
 
 Bank.prototype.getTotalValue = function () {
